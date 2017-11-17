@@ -1,0 +1,49 @@
+.demo2 {
+	width: 600px;
+	height: 225px;
+	overflow: hidden;
+	position: relative;
+	padding-left: 0px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.demo2 .inside {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 100px;
+	margin-top: -50px;
+	font-weight: normal;
+	text-decoration: none;
+	margin-left: 375px;
+}
+
+.demo2 a {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 2px solid #305B00;
+	display: block;
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.demo2 a:hover {
+	position: absolute;
+	overflow: hidden;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	display: block;
+	color: #F00;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+}
